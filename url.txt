@@ -1,0 +1,36 @@
+book-service
+
+http://localhost:8000/books/bookId/B4232/bookName/Language%20Fundamentals
+http://localhost:8001/books/bookId/B4232/bookName/Language%20Fundamentals
+http://localhost:8002/books/bookId/B4232/bookName/Language%20Fundamentals
+
+subscription-service
+
+http://localhost:8100/subscription/subscriberName/John/bookId/B1212
+http://localhost:8101/subscription/subscriberName/John/bookId/B1212
+
+http://localhost:8100/bookInquiry/bookId/B4232/bookName/Language%20Fundamentals
+http://localhost:8100/bookInquiry-feign/bookId/B4232/bookName/Language%20Fundamentals
+
+
+EUREKA
+http://localhost:8761/
+
+
+API Gateway
+all-api-gateway 8765
+
+
+/*********************************************************/
+			CANNOT TEST after this part
+/*********************************************************/			
+
+http://localhost:8765/BOOKS/book/bookId/B4232/bookName/Language%20Fundamentals
+
+http://localhost:8100/SUBSCRIPTION-SERVICES/bookInquiry-feign/bookId/B4232/bookName/Language%20Fundamentals
+
+
+lower case
+http://localhost:8100/subscription-services/bookInquiry-feign/bookId/B4232/bookName/Language%20Fundamentals
+
+
